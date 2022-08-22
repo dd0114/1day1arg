@@ -1,6 +1,7 @@
+#솔직히 왜 그런지 이해가 안간다! 다시 돌아와서 보자!
+#https://leetcode.com/problems/reconstruct-itinerary/
+
 import collections
-
-
 def findItinerary(tickets):
     tickets.sort()
     t_dict = collections.defaultdict(list)
